@@ -11,3 +11,4 @@ inoremap <silent><expr> <cr> "\<c-g>u\<CR>"
 
 "commands
 command! Tex :execute '0r ~/.config/nvim/templates/typeset.tex'
+command! C !pdflatex -shell-escape %
